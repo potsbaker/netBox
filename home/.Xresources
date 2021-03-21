@@ -1,0 +1,38 @@
+! .Xresources
+
+! General settings
+XTerm*termName: xterm-256color
+XTerm*utf8: 1
+XTerm*locale: true
+xterm*faceName: LiberationSans Mono
+xterm*faceSize: 10
+xterm*renderFont: true
+Xterm*loginShell: true
+xterm*internalBorder: 10
+XTerm*saveLines: 4500
+XTerm*selectToClipboard: true
+XTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+! Colors
+*background: #FDF6E3
+*foreground: #323232
+
+*color0:     #E3DDCC
+*color1:     #C34646
+*color2:     #8C9440
+*color3:     #BB8E36
+*color4:     #586E75
+*color5:     #937088
+*color6:     #5E8D87
+*color7:     #979388
+
+*color8:     #CAC4B5
+*color9:     #CF6A6A
+*color10:    #A3A966
+*color11:    #C8A45E
+*color12:    #798B90
+*color13:    #B88CAA
+*color14:    #7EA39F
+*color15:    #65625A
