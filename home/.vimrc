@@ -8,7 +8,6 @@ set history=50
 set ruler
 syntax on
 set number
-set visualbell
 set showmode
 set showcmd
 set cursorline
