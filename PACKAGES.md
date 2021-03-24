@@ -19,4 +19,5 @@ qt5ct\
 adwaita-icon-theme\
 mpv\
 youtube-dl\
-intel-microcode-netbsd
+intel-microcode-netbsd\
+redshift
